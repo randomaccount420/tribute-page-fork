@@ -1,5 +1,4 @@
 body {
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -13,10 +12,12 @@ body {
 .main-title {
   margin: 10px;
   font-size: 20px;
+  text-align: center;
 }
 
 .main-description {
   margin: 5px;
+  text-align: center;
 }
 
 .banner {
@@ -26,12 +27,23 @@ body {
 
 .banner-text {
   padding: 5px;
+  text-align: center;
 }
 
 .timeline-title {
   padding: 30px;
+  text-align: center;
 }
 ul {
   list-style-position: inside;
+  text-align: center;
+  justify-content: center;
+}
+
+.timeline-list {
+  display: inline-block;
+}
+
+.image {
   text-align: center;
 }
